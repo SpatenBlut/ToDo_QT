@@ -9,7 +9,7 @@
 #include <QTextStream>
 #include <QStringList>
 
-// Lädt Todos aus Datei (Format: "0/1\ttext")
+// Lädt Todos aus Datei
 void loadTodos(QListWidget *list) {
     // Datei öffnen
     QFile file("todos.txt");
